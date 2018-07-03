@@ -25,8 +25,14 @@ body {
     background-color: #fff;
 }
 
+.main-header {
+    display: flex;
+    margin: 0 auto;
+}
+
 .header-info {
     display: flex;
+    margin: 0 auto;
 }
 
 .header-info__wrapper-info {
@@ -40,4 +46,16 @@ body {
 .advantages-list__percent {
     font-size: 16px;
     font-weight: 200;
+}
+
+.page-main {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
 }

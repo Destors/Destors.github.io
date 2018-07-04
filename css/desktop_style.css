@@ -1,6 +1,11 @@
 @media (min-width: 960px) {
     .container {
-        max-width: 2500px;
+        max-width: 1200px;
         min-width: 700px;
+    }
+
+    .header-info__wrapper-info {
+        width: 324px;
+        margin: 0 auto;
     }
 }

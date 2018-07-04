@@ -114,7 +114,7 @@ body {
 }
 
 .main-info {
-    padding: 320px 20px 40px 20px;
+    padding: 60% 20px 40px 20px;
 
     text-align: center;
 
@@ -136,7 +136,7 @@ body {
 }
 
 .advantages {
-    padding: 320px 20px 40px 20px;
+    padding: 60% 20px 40px 20px;
 
     background-color: #110f0d;
     background-image: url(../img/59fdde28f2a31.jpg);
@@ -215,7 +215,7 @@ body {
 }
 
 .desires {
-    padding: 360px 20px 40px 20px;
+    padding: 82% 20px 40px 20px;
     margin: 0;
 
     text-align: center;
@@ -243,7 +243,7 @@ body {
 
 
 .social-menu {
-    padding: 400px 20px 40px 20px;
+    padding: 77% 20px 40px 20px;
     margin: 0;
 
     text-align: center;

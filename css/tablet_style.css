@@ -1,0 +1,19 @@
+@media (min-width: 700px) {
+    .container {
+        max-width: 960px;
+        min-width: 700px;
+    }
+
+    .advantages-list {
+        display: flex;
+        margin-right: -10%;
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages-list__item {
+        width: 50%;
+        padding-right: 10%;
+    }
+}

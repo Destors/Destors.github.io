@@ -46,7 +46,7 @@ body {
     padding-bottom: 20px;
     margin: 0;
 
-    background-color: #050a0f;
+    background-color: #191a1e;
 }
 
 .advantages-list__percent {
@@ -114,11 +114,14 @@ body {
 }
 
 .main-info {
-    padding: 40px 20px;
+    padding: 320px 20px 40px 20px;
 
     text-align: center;
 
-    background-color: #0d1116ff;
+    background-color: black;
+    background-image: url(../img/big_1498922514_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .main-info__title {
@@ -133,9 +136,12 @@ body {
 }
 
 .advantages {
-    padding: 20px 40px;
+    padding: 320px 20px 40px 20px;
 
-    background-color: #050a0f;
+    background-color: #110f0d;
+    background-image: url(../img/59fdde28f2a31.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .advantages-list {
@@ -209,12 +215,15 @@ body {
 }
 
 .desires {
-    padding: 20px 20px;
+    padding: 360px 20px 40px 20px;
     margin: 0;
 
     text-align: center;
 
-    background-color: #0a0f2d;
+    background-color: #262835;
+    background-image: url(../img/20413001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .desires__title {
@@ -234,12 +243,16 @@ body {
 
 
 .social-menu {
-    padding: 50px 20px;
+    padding: 400px 20px 40px 20px;
     margin: 0;
 
     text-align: center;
 
-    background-color: #20223bff;
+    background-color: #000;
+    background-image: url(../img/spacehowl.49147.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80%;
 }
 
 .social-list {
@@ -260,7 +273,7 @@ body {
     margin: 30px;
 
     border-radius: 50%;
-    background-color: gray;
+    background-color: #c4c4c4ff;
 
     align-items: center;
     justify-content: center;
@@ -274,5 +287,5 @@ body {
 
     text-decoration: none;
 
-    color: inherit;
+    color: #000;
 }

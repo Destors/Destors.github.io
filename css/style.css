@@ -20,8 +20,26 @@ body {
     font-weight: 400;
     line-height: 24px;
 
-    color: white;
+    color: #e5e5e5;
 }
+
+.visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    white-space: nowrap;
+
+    border: 0;
+
+    clip-path: inset(100%);
+}
+
 
 .main-header {
     padding-top: 30px;
@@ -114,17 +132,6 @@ body {
     color: green;
 }
 
-.page-footer {
-    padding: 20px 20px;
-
-    background-color: #121c25;
-}
-
-.page-footer__description {
-    padding: 0;
-    margin: 0;
-}
-
 .advantages {
     padding: 20px 40px;
 
@@ -156,12 +163,33 @@ body {
     position: absolute;
     z-index: 1;
 
-    width: 75%;
     height: 35px;
 
     content: "";
 
-    background-color: green;
+    background-color: #007f00;
+}
+
+.progress-bar--75:before {
+    width: 75%;
+}
+
+.progress-bar--62:before {
+    width: 62%;
+
+    background-color: #517f00;
+}
+
+.progress-bar--45:before {
+    width: 45%;
+
+    background-color: #3a4723;
+}
+
+.progress-bar--5:before {
+    width: 5%;
+
+    background-color: #c60021ff;
 }
 
 .progress-bar__text {
@@ -178,4 +206,73 @@ body {
     margin: 0;
 
     font-weight: bold;
+}
+
+.desires {
+    padding: 20px 20px;
+    margin: 0;
+
+    text-align: center;
+
+    background-color: #0a0f2d;
+}
+
+.desires__title {
+    padding: 0;
+    margin: 0;
+}
+
+
+.page-footer {
+    padding: 0 0;
+}
+
+.page-footer__description {
+    padding: 0;
+    margin: 0;
+}
+
+
+.social-menu {
+    padding: 50px 20px;
+    margin: 0;
+
+    text-align: center;
+
+    background-color: #20223bff;
+}
+
+.social-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social-list__item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+
+    border-radius: 50%;
+    background-color: gray;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list__title {
+    max-width: 100%;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: inherit;
 }

@@ -11,7 +11,6 @@ html {
 }
 
 body {
-    min-width: 1200px;
     padding: 0;
     margin: 0;
 
@@ -21,30 +20,15 @@ body {
     font-weight: 400;
     line-height: 24px;
 
-    color: black;
-    background-color: white;
+    color: white;
 }
 
 .main-header {
-    display: flex;
-    margin: 0 auto;
-}
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0;
 
-.header-info {
-    display: flex;
-    margin: 0 auto;
-}
-
-.header-info__photo {
-    border-radius: 50%;
-}
-
-.header-info__wrapper-info {
-    width: 300px;
-}
-
-.header-info__wrapper-photo {
-    width: 224px;
+    background-color: #102131;
 }
 
 .advantages-list__percent {
@@ -52,35 +36,69 @@ body {
     font-weight: 200;
 }
 
-.page-main {
-    display: flex;
-    width: 600px;
+.container {
+    max-width: 320px;
+    padding: 0;
     margin: 0 auto;
+}
+
+.header-info {
+    padding: 20px 20px;
+}
+
+.header-info__wrapper-photo {
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+.header-info__photo {
+    width: auto;
+    height: 100%;
+    margin-left: -76px;
+}
+
+.header-info__description {
+    padding: 0;
+    margin: 0;
+}
+
+.header-info__wrapper-info {
+    padding-left: 20px;
+
+    border-left: 2px solid white;
+}
+
+.page-main {
+    padding: 20px 20px;
+    margin: 0;
+
+    background-color: #223648;
+}
+
+.main-info {
+    text-align: center;
+}
+
+.main-info__title {
+    padding: 0;
+    margin: 0;
 }
 
 .page-footer {
-    display: flex;
-    width: 600px;
-    margin: 0 auto;
+    padding: 20px 20px;
+
+    background-color: #121c25;
 }
 
-.container {
-  width: 320px;
-  padding: 0;
-  margin: 0 auto;
+.page-footer__description {
+    padding: 0;
+    margin: 0;
 }
-
-@media (min-width: 660px;) {
-  .container {
-    width: 660px;
-  }
-}
-
-@media (min-width: 900px {
-  .container {
-    width: auto;
-    min-width: 900px;
-    max-width: 1200px;
-  }
-}
-

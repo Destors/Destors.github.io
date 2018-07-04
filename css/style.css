@@ -28,7 +28,7 @@ body {
     padding-bottom: 20px;
     margin: 0;
 
-    background-color: #102131;
+    background-color: #050a0f;
 }
 
 .advantages-list__percent {
@@ -37,7 +37,8 @@ body {
 }
 
 .container {
-    max-width: 320px;
+    max-width: 500px;
+    min-width: 320px;
     padding: 0;
     margin: 0 auto;
 }
@@ -77,19 +78,40 @@ body {
 }
 
 .page-main {
-    padding: 20px 20px;
+    padding: 0;
     margin: 0;
+}
 
-    background-color: #223648;
+.page-main__button {
+    padding: 10px 25px;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: gray;
+}
+
+.page-main__title {
+    text-align: center;
 }
 
 .main-info {
+    padding: 40px 20px;
+
     text-align: center;
+
+    background-color: #0d1116ff;
 }
 
 .main-info__title {
     padding: 0;
     margin: 0;
+}
+
+.main-info__alert {
+    text-decoration: none;
+
+    color: green;
 }
 
 .page-footer {
@@ -101,4 +123,59 @@ body {
 .page-footer__description {
     padding: 0;
     margin: 0;
+}
+
+.advantages {
+    padding: 20px 40px;
+
+    background-color: #050a0f;
+}
+
+.advantages-list {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.progress-bar {
+    position: relative;
+
+    display: flex;
+    width: 100%;
+    height: 35px;
+    padding: 0;
+    margin: 0 auto;
+
+    background: #888;
+
+    align-items: center;
+}
+
+.progress-bar:before {
+    position: absolute;
+    z-index: 1;
+
+    width: 75%;
+    height: 35px;
+
+    content: "";
+
+    background-color: green;
+}
+
+.progress-bar__text {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.progress-bar__title {
+    z-index: 2;
+
+    padding: 0 10px;
+    margin: 0;
+
+    font-weight: bold;
 }

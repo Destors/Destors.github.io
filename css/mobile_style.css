@@ -106,7 +106,7 @@ body {
     text-decoration: none;
 
     color: white;
-    background-color: gray;
+    background-color: #262626ff;
 }
 
 .page-main__title {
@@ -127,6 +127,12 @@ body {
 .main-info__title {
     padding: 0;
     margin: 0;
+}
+
+.advantages-title-wrapper {
+    margin-bottom: 40px;
+
+    text-align: center;
 }
 
 .main-info__alert {

@@ -1,6 +1,8 @@
 html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+
+    background-color: black;
 }
 
 *,
@@ -274,8 +276,8 @@ body {
 
 .social-list__item {
     display: flex;
-    width: 100px;
-    height: 100px;
+    min-width: 40px;
+    min-height: 40px;
     margin: 30px;
 
     border-radius: 50%;
@@ -288,10 +290,21 @@ body {
 .social-list__title {
     max-width: 100%;
 
-    font-size: 25px;
+    font-size: 10px;
     font-weight: bold;
 
     text-decoration: none;
 
     color: #000;
+}
+
+.copyright {
+    text-align: center;
+
+    background-color: #222;
+}
+
+.copyright__title {
+    padding: 0;
+    margin: 0;
 }

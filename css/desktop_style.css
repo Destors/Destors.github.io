@@ -65,6 +65,7 @@
     .advantages-list {
         width: 100%;
         padding-top: 3%;
+        padding-left: 60px;
         margin-right: -30px;
     }
 
@@ -120,7 +121,7 @@
         display: block;
         float: right;
         width: 51%;
-        padding: 12% 0 0 0;
+        padding: 9% 0 0 0;
         margin: 0;
 
         text-align: left;
@@ -132,7 +133,7 @@
     }
 
     .social-list__title {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .social-list__item {

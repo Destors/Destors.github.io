@@ -108,7 +108,7 @@ body {
     text-decoration: none;
 
     color: white;
-    background-color: #262626ff;
+    background-color: #444f;
 }
 
 .page-main__title {
@@ -281,7 +281,7 @@ body {
     margin: 30px;
 
     border-radius: 50%;
-    background-color: #c4c4c4ff;
+    background-color: #696969;
 
     align-items: center;
     justify-content: center;

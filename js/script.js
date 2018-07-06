@@ -1,4 +1,4 @@
-document.querySelector('.page-main__button').addEventListener('click', function() {
+document.getElementById('text-button').addEventListener('click', function() {
   if(this.getAttribute('data-more') == 0) {
     this.setAttribute('data-more', 1);
     this.style.display = 'block';
@@ -13,3 +13,4 @@ document.querySelector('.page-main__button').addEventListener('click', function(
     this.previousSibling.previousSibling.style.display = 'none';
   } 
 });
+

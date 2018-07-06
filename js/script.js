@@ -10,7 +10,6 @@ document.querySelector('.page-main__button').addEventListener('click', function(
     this.setAttribute('data-more', 0);
     this.style.display = 'inline';
     this.innerHTML = 'Читать больше';
-
     this.previousSibling.previousSibling.style.display = 'none';
   } 
 });

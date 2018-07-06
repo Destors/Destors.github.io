@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="no-js" lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Разработчик Саша</title>
+    <script>
+      document.documentElement
+        .classList.replace('no-js', 'js');
+    </script>
     <link rel="stylesheet" href="css/mobile_style.css">
     <link rel="stylesheet" href="css/tablet_style.css">
     <link rel="stylesheet" href="css/desktop_style.css">
@@ -31,14 +35,22 @@
         <div class="main-info-wrapper">
           <h2 class="main-info__title">Кто я такой?</h2>
           <p class="main-info__description">Начинающий фронтенд разработчик, а также поклонник <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8" class="main-info__alert">здорового</a> образа жизни, музыкант, любитель велосипедов и творчества.</p>
-          <a class="page-main__button" href="#">Читать дальше</a>
+          <div class="readmore-text">
+            <p>Родился 19 марта 1995 году в Украине, город <a class="main-info__alert" href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2">Николаев</a>, в семье учительницы и электрика. Полное имя Просолович Александр Романович.</p>
+            <p>Учился в школе №7, дальше поступил в политехнический институт в Николаеве на специальность ДВС, после перешел в киевский университет Украина на специальность компьютерные науки.</p>
+          </div>
+          <button class="page-main__button" data-more="0">Читать больше</button>
         </div>
       </section>
       <section class="advantages">
         <div class="advantages-title-wrapper">
           <h2 class="page-main__title">Навыки</h2>
           <p class="page-main__description">У меня есть базовые навыки фронтенд разработчика и небольшая практика.</p>
-          <a class="page-main__button" href="#">Читать дальше</a>
+          <div class="readmore-text">
+            <p>Родился 19 марта 1995 году в Украине, город <a class="main-info__alert" href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2">Николаев</a>, в семье учительницы и электрика. Полное имя Просолович Александр Романович.</p>
+            <p>Учился в школе №7, дальше поступил в политехнический институт в Николаеве на специальность ДВС, после перешел в киевский университет Украина на специальность компьютерные науки.</p>
+          </div>
+          <button class="page-main__button" data-more="0">Читать больше</button>
         </div>
         <ul class="advantages-list">
           <li class="advantages-list__item">
@@ -110,5 +122,6 @@
         <p class="copyright__title">All Rights Reserved 2018</p>
       </section>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

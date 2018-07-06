@@ -42,9 +42,17 @@ body {
     clip-path: inset(100%);
 }
 
+.js .readmore-text {
+    display: none;
+}
+
+.js .readmore-text--on {
+    display: block;
+}
+
 
 .main-header {
-    padding-top: 30px;
+    padding-top: 13px;
     padding-bottom: 20px;
     margin: 0;
 
@@ -130,11 +138,17 @@ body {
 
 .page-main__button {
     padding: 10px 25px;
+    margin: 0 auto;
 
     text-decoration: none;
 
     color: white;
+    border: none;
     background-color: #3d3d3d;
+}
+
+.no-js .page-main__button {
+    display: none;
 }
 
 .page-main__title {

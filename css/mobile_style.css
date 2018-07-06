@@ -51,6 +51,32 @@ body {
     background-color: #191a1e;
 }
 
+.lang-list {
+    display: flex;
+    padding: 0 30px;
+    margin: 0;
+
+    list-style: none;
+
+    justify-content: space-between;
+}
+
+.lang-list__item {
+    padding-right: 10px;
+}
+
+.lang-list__link {
+    font-size: 12px;
+
+    text-decoration: none;
+
+    color: gray;
+}
+
+.lang-list__link--active {
+    color: inherit;
+}
+
 .advantages-list__percent {
     font-size: 16px;
     font-weight: 200;

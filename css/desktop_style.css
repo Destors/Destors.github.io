@@ -3,6 +3,26 @@
         min-width: 970px;
     }
 
+
+    .lang-menu {
+        float: right;
+    }
+
+    .lang-list {
+        display: flex;
+    }
+
+    .lang-list__item:first-child {
+        border-left: none;
+    }
+
+    .lang-list__item {
+        padding-left: 7px;
+
+        border-left: 2px solid white;
+    }
+
+
     .header-info {
         display: flex;
 
@@ -92,7 +112,7 @@
         display: block;
         float: right;
         width: 50%;
-        padding: 13% 20px;
+        padding: 10% 20px;
         margin: 0;
 
         text-align: left;

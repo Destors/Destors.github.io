@@ -111,10 +111,10 @@
         display: flex;
 
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 
     .hobbies-list__item {
+        display: block;
         padding: 30px 40px;
     }
 
@@ -152,11 +152,6 @@
         margin: 0;
 
         background-color: #000;
-        background-image: url(../img/spacehowl.49147.jpg);
-        background-repeat: no-repeat;
-        background-position-x: 10%;
-        background-position-y: 6%;
-        background-size: 40%;
     }
 
     .social-menu__title {
@@ -166,12 +161,8 @@
 
     .social-menu-wrapper {
         display: block;
-        float: right;
-        width: 51%;
-        padding: 9% 0 0 0;
-        margin: 0;
 
-        text-align: left;
+        text-align: center;
     }
 
     .social-list-wrapper {

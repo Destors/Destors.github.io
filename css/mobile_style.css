@@ -280,17 +280,25 @@ a {
     font-weight: bold;
 }
 
+.hobbies__title {
+    padding: 0 20px;
+
+    text-align: center;
+}
+
 .hobbies-list {
-    padding: 20px 20px;
+    padding: 0 20px;
     margin: 0;
 
     list-style: none;
 }
 
 .hobbies-list__item {
-    padding-top: 30px;
+    display: flex;
 
     text-align: center;
+
+    align-items: center;
 }
 
 .hobbies-list__description {
@@ -301,8 +309,8 @@ a {
 }
 
 .hobbies-list__img {
-    width: 150px;
-    height: auto;
+    width: 120px;
+    height: 127px;
 }
 
 .desires {
@@ -334,16 +342,11 @@ a {
 
 
 .social-menu {
-    padding: 77% 20px 40px 20px;
     margin: 0;
 
     text-align: center;
 
     background-color: #000;
-    background-image: url(../img/spacehowl.49147.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 80%;
 }
 
 .social-list {

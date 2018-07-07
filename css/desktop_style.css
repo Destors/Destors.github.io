@@ -99,6 +99,28 @@
         padding-right: 71px;
     }
 
+    .hobbies {
+        margin: 40px;
+    }
+
+    .hobbies__title {
+        text-align: center;
+    }
+
+    .hobbies-list {
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+
+    .hobbies-list__item {
+        padding: 0 40px;
+    }
+
+    .hobbies-list__description {
+        max-width: 200px;
+    }
+
     .desires {
         min-height: 330px;
         padding: 0;

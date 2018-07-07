@@ -111,10 +111,11 @@
         display: flex;
 
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .hobbies-list__item {
-        padding: 0 40px;
+        padding: 30px 40px;
     }
 
     .hobbies-list__description {

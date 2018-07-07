@@ -288,6 +288,8 @@ a {
 }
 
 .hobbies-list__item {
+    padding-top: 30px;
+
     text-align: center;
 }
 

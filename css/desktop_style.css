@@ -152,14 +152,14 @@
         background-image: url(../img/20413001.jpg);
         background-repeat: no-repeat;
         background-position-x: 10%;
-        background-position-y: 20px;
+        background-position-y: 10px;
         background-size: 40%;
     }
 
     .desires-content-wrapper {
         display: block;
         width: 50%;
-        padding: 10% 20px;
+        padding: 12% 20px 5% 20px;
         margin: 0;
         margin-left: auto;
 

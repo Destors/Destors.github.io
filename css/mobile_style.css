@@ -362,12 +362,13 @@ a {
 
 .social-list {
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
 
     list-style: none;
 }
 .social-list__item {
     display: inline-block;
+    margin-right: 10px;
 }
 
 .social-list__link {

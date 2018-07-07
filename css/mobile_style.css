@@ -2,6 +2,8 @@ html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 
+    animation: appear 3s;
+
     background-color: black;
 }
 
@@ -25,6 +27,12 @@ body {
     color: #e5e5e5;
 }
 
+a {
+    text-decoration: none;
+
+    color: #7f7fff;
+}
+
 .visually-hidden {
     position: absolute;
 
@@ -42,8 +50,20 @@ body {
     clip-path: inset(100%);
 }
 
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
 .js .hideContent {
     display: none;
+
+    animation: appear 4s;
 }
 
 .js .showContent {
@@ -151,7 +171,7 @@ body {
 }
 
 .page-main__title {
-    text-align: center;
+    text-align: left;
 }
 
 .main-info {
@@ -176,11 +196,6 @@ body {
     text-align: center;
 }
 
-.main-info__alert {
-    text-decoration: none;
-
-    color: green;
-}
 
 .advantages {
     padding: 60% 20px 40px 20px;
@@ -346,4 +361,19 @@ body {
 .copyright__title {
     padding: 0;
     margin: 0;
+}
+
+.hideContent__title {
+    text-align: left;
+}
+
+.hideContent__title-smal {
+    padding: 0;
+    margin: 0;
+
+    text-align: left;
+}
+
+.hideContent__description {
+    text-align: left;
 }

@@ -44,7 +44,7 @@
         padding-top: 7%;
 
         background-position-x: 10%;
-        background-position-y: 50%;
+        background-position-y: 42px;
         background-size: 40%;
     }
 
@@ -75,7 +75,7 @@
         background-image: url(../img/59fdde28f2a31.jpg);
         background-repeat: no-repeat;
         background-position-x: 10%;
-        background-position-y: 6%;
+        background-position-y: 50px;
         background-size: 40%;
     }
 
@@ -108,16 +108,16 @@
         background-image: url(../img/20413001.jpg);
         background-repeat: no-repeat;
         background-position-x: 10%;
-        background-position-y: 6%;
+        background-position-y: 20px;
         background-size: 40%;
     }
 
     .desires-content-wrapper {
         display: block;
-        float: right;
         width: 50%;
         padding: 10% 20px;
         margin: 0;
+        margin-left: auto;
 
         text-align: left;
     }
@@ -172,4 +172,10 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+.hideContent {
+    display: flex;
+
+    flex-wrap: wrap;
 }

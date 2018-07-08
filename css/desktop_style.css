@@ -171,11 +171,15 @@
         flex-wrap: wrap;
     }
 
+    .copyright {
+        display: flex;
+
+        justify-content: space-around;
+    }
+
     .copyright__title {
         padding: 2px 10px;
 
         font-size: 12px;
-
-        text-align: right;
     }
 }

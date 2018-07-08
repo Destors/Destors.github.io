@@ -40,9 +40,6 @@
 
     .header-info__wrapper-photo {
         margin: 0 40px;
-
-        background-image: url(../img/595f10a64d228.png);
-        background-size: 100%;
     }
 
     .header-info__wrapper-info {
@@ -50,9 +47,14 @@
         margin: 0;
     }
 
+    .main-header {
+        margin-bottom: 70px;
+    }
+
     .main-info {
         min-height: 300px;
         padding-top: 7%;
+        margin-bottom: 70px;
 
         background-position-x: 10%;
         background-position-y: 42px;
@@ -82,9 +84,6 @@
     .advantages {
         padding-top: 7%;
 
-        background-color: #110f0d;
-        background-image: url(../img/59fdde28f2a31.jpg);
-        background-repeat: no-repeat;
         background-position-x: 10%;
         background-position-y: 50px;
         background-size: 40%;
@@ -148,7 +147,6 @@
         margin: 0;
 
         background-color: #262835;
-        background-image: url(../img/20413001.jpg);
         background-repeat: no-repeat;
         background-position-x: 10%;
         background-position-y: 10px;
@@ -165,7 +163,7 @@
         text-align: left;
     }
 
-    .hideContent {
+    .hide-content {
         display: flex;
 
         flex-wrap: wrap;

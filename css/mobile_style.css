@@ -61,7 +61,7 @@ a {
     }
 }
 
-.js .hideContent {
+.js .hide-content {
     display: none;
 
     animation: appear 4s;
@@ -189,7 +189,7 @@ a {
     text-align: center;
 
     background-color: black;
-    background-image: url(../img/big_1498922514_image.jpg);
+    background-image: url(../img/background_whoiem.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -210,7 +210,7 @@ a {
     padding: 60% 20px 40px 20px;
 
     background-color: #110f0d;
-    background-image: url(../img/59fdde28f2a31.jpg);
+    background-image: url(../img/background_skills.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -330,7 +330,7 @@ a {
     text-align: center;
 
     background-color: #262835;
-    background-image: url(../img/20413001.jpg);
+    background-image: url(../img/background_dreams.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -342,7 +342,7 @@ a {
 
 
 .page-footer {
-    padding: 0 20px;
+    padding: 0;
     margin: 0;
 }
 
@@ -353,7 +353,7 @@ a {
 
 
 .social-menu {
-    padding: 0;
+    padding: 0 20px;
     margin: 0;
 
     text-align: center;
@@ -385,6 +385,8 @@ a {
 }
 
 .copyright {
+    padding: 20px 20px;
+
     text-align: center;
 
     background-color: #222;
@@ -395,17 +397,17 @@ a {
     margin: 0;
 }
 
-.hideContent__title {
+.hide-content__title {
     text-align: left;
 }
 
-.hideContent__title-smal {
+.hide-content__title-smal {
     padding: 0;
     margin: 0;
 
     text-align: left;
 }
 
-.hideContent__description {
+.hide-content__description {
     text-align: left;
 }

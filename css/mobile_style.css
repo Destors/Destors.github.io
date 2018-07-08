@@ -30,7 +30,7 @@ body {
 a {
     text-decoration: none;
 
-    color: #7f7fff;
+    color: #36b;
 }
 
 .visually-hidden {
@@ -380,16 +380,17 @@ a {
 }
 
 .copyright {
-    padding: 20px 20px;
+    padding: 10px 20px 30px 10px;
 
-    text-align: center;
+    text-align: left;
 
     background-color: #222;
 }
 
 .copyright__title {
+    display: block;
     padding: 0;
-    margin: 0;
+    margin: 5px 0;
 }
 
 .hide-content__title {

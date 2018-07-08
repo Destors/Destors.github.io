@@ -1,4 +1,4 @@
-@media (min-width: 960px) {
+@media (min-width: 660px) {
     a:hover,
     a:focus {
         opacity: .2;
@@ -91,9 +91,9 @@
     }
 
     .advantages-title-wrapper {
-        float: right;
         width: 50%;
         padding-left: 24px;
+        margin-left: auto;
 
         text-align: left;
 
@@ -101,16 +101,15 @@
     }
 
     .advantages-list {
-        width: 100%;
-        padding-top: 3%;
-        padding-left: 60px;
-        margin-right: -30px;
+        display: flex;
+        padding-top: 20px;
+
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .advantages-list__item {
-        min-width: 400px;
-        padding-top: 37px;
-        padding-right: 71px;
+        width: 47%;
     }
 
     .hobbies {

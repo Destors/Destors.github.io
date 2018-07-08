@@ -281,14 +281,16 @@ a {
     font-weight: bold;
 }
 
-.hobbies__title {
+.hobbies {
     padding: 0 20px;
+}
 
+.hobbies__title {
     text-align: center;
 }
 
 .hobbies-list {
-    padding: 0 20px;
+    padding: 0;
     margin: 0;
 
     list-style: none;
@@ -301,6 +303,7 @@ a {
     text-align: center;
 
     align-items: center;
+    justify-content: space-around;
 }
 
 .hobbies-list__description {
@@ -335,7 +338,8 @@ a {
 
 
 .page-footer {
-    padding: 0 0;
+    padding: 0 20px;
+    margin: 0;
 }
 
 .page-footer__description {

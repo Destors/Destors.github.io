@@ -1,5 +1,4 @@
-@media
- (min-width: 660px) {
+@media (min-width: 660px) {
     a:hover,
     a:focus {
         opacity: .2;

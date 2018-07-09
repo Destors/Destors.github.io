@@ -13,8 +13,8 @@
     </script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mobile_style.css">
-    <link rel="stylesheet" href="css/desktop_style.css">
-    <link rel="stylesheet" href="css/hight_res_style.css">
+    <link rel="stylesheet" media="(min-width: 660px)" href="css/desktop_style.css">
+    <link rel="stylesheet" media="(min-width: 2800px)" href="css/hight_res_style.css">
   </head>
   <body class="container">
     <header class="main-header">
@@ -182,11 +182,15 @@
                 </svg>
               </a>
             </li>
-            <li class="social-list__item"><button class="social-list__button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" width="35px" height="35px" fill="white">
-              <g id="surface1">
-              <path style=" " d="M 3 6 L 3 26 L 12.585938 26 L 16 29.414063 L 19.414063 26 L 29 26 L 29 6 Z M 5 8 L 27 8 L 27 24 L 18.585938 24 L 16 26.585938 L 13.414063 24 L 5 24 Z M 9 11 L 9 13 L 23 13 L 23 11 Z M 9 15 L 9 17 L 23 17 L 23 15 Z M 9 19 L 9 21 L 19 21 L 19 19 Z "/>
-              </g>
-              </svg></button></li>
+            <li class="social-list__item">
+              <div class="social-list__button-wrapper">
+                <button class="social-list__button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" width="35px" height="35px" fill="white">
+                <g id="surface1">
+                <path style=" " d="M 3 6 L 3 26 L 12.585938 26 L 16 29.414063 L 19.414063 26 L 29 26 L 29 6 Z M 5 8 L 27 8 L 27 24 L 18.585938 24 L 16 26.585938 L 13.414063 24 L 5 24 Z M 9 11 L 9 13 L 23 13 L 23 11 Z M 9 15 L 9 17 L 23 17 L 23 15 Z M 9 19 L 9 21 L 19 21 L 19 19 Z "/>
+                </g>
+                </svg></button>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
@@ -216,7 +220,7 @@
               <label class="modal__label" for="massage">Текст письма:</label>
               <textarea class="modal__input modal__massage-input" cols="30" id="massage" name="massage" placeholder="В свободной форме" rows="3"></textarea>
             </p>
-            <input class="page-main__btn" type="submit" value="Отправить">
+            <input class="modal__submit-btn" type="submit" value="Отправить">
           </fieldset>
         </form>
         <button class="modal-close-btn" title="Закрыть поле формы">

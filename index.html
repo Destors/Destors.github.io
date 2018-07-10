@@ -6,7 +6,6 @@
     <meta name="description" content="Разработка и поддержка веб-сайтов, современный дизайн, новые технологии.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Prosolovych Oleksandr">
-    <meta name='freelancehunt' content='fd8ad3b1da99d23' />
     <title>Фронтенд разработчик Destors</title>
     <script>
       document.documentElement
@@ -20,6 +19,7 @@
   <body class="container">
     <header class="main-header">
       <section class="lang-menu">
+        <h1 class="visually-hidden">Меню выбора языка</h1>
         <ul class="lang-list">
           <li class="lang-list__item"><a href="#" class="lang-list__link lang-list__link--active" title="Русский язык">RUS</a></li>
           <li class="lang-list__item"><a href="index_eng.html" class="lang-list__link" title="English language">ENG</a></li>
@@ -138,7 +138,7 @@
           <div class="hide-content">
             <h4 class="hide-content__title-smal">О веб-разработке</h4>
             <p class="hide-content__description">Как я к этому пришел? Очень просто, я всегда хотел заниматся чем-то таким, что поможет мне раскрыть себя и свои способности. В мире кода чувствую себя прекрасно. Чувствую что занимаюсь чем-то важным и нужным.</p>
-            <img src="img/image-research-development.png" width="100%" height="auto" alt="Важность работы программистов в обществе">
+            <img class="hide-content__img" src="img/image-research-development.png" alt="Важность работы программистов в обществе">
             <h4 class="hide-content__title-smal">О программировании</h4>
             <p class="hide-content__description">Программирование это инструмент, который дает безграничные возможности для любой фантазии. Даже такие простые навыки как верстка сайтов - открыли для меня новый мир.</p>
             <p class="hide-content__description">Мне очень нравится и хочется, обучатся дальше, и расширять круг своих навыков.</p>
@@ -186,9 +186,7 @@
             <li class="social-list__item">
               <div class="social-list__button-wrapper">
                 <button class="social-list__button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" width="35px" height="35px" fill="white">
-                <g id="surface1">
                 <path style=" " d="M 3 6 L 3 26 L 12.585938 26 L 16 29.414063 L 19.414063 26 L 29 26 L 29 6 Z M 5 8 L 27 8 L 27 24 L 18.585938 24 L 16 26.585938 L 13.414063 24 L 5 24 Z M 9 11 L 9 13 L 23 13 L 23 11 Z M 9 15 L 9 17 L 23 17 L 23 15 Z M 9 19 L 9 21 L 19 21 L 19 19 Z "/>
-                </g>
                 </svg></button>
               </div>
             </li>
@@ -196,12 +194,14 @@
         </div>
       </section>
       <section class="copyright">
-        <a href="skype: rokhaynt?chat" class="copyright__title">Skype: rokhaynt</a>
-        <a href="tel: +380631348947" class="copyright__title">Tel: +38 063 134 89 47</a>
-        <a href="mailto: halen54001@gmail.com?subject=From:destors.com" class="copyright__title">Email: halen54001@gmail.com</a>
+        <h3 class="visually-hidden">Наши контакты:</h3>
+        <a href="skype:rokhaynt?chat" class="copyright__title">Skype: rokhaynt</a>
+        <a href="tel:+380631348947" class="copyright__title">Tel: +38 063 134 89 47</a>
+        <a href="mailto:halen54001@gmail.com?subject=From:destors.com" class="copyright__title">Email: halen54001@gmail.com</a>
         <p class="copyright__title">© 2018 All Rights Reserved </p>
       </section>
       <section class="modal">
+        <h2 class="visually-hidden">Напишите нам</h2>
       <div class="overlay"></div>
       <div class="modal-wrapper">
         <form action="https://echo.htmlacademy.ru" class="modal-form" method="post">

@@ -15,7 +15,7 @@ for (var i = 0; i < moreButtonsList.length; i++) {
 }
 var link = document.querySelector(".social-list__button");
 var popup = document.querySelector(".modal");
-var close = popup.querySelector(".modal-close-btn");
+var close = popup.querySelector(".modal__close-btn");
 var login = popup.querySelector("[name=username]");
 link.addEventListener("click", function (evt) {
   evt.preventDefault();

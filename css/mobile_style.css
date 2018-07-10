@@ -394,7 +394,7 @@ a {
     height: 50px;
 }
 
-.copyright {
+.contacts {
     padding: 10px 20px 30px 10px;
 
     text-align: left;
@@ -402,10 +402,19 @@ a {
     background-color: #222;
 }
 
-.copyright__title {
+.contacts-list {
+    list-style: none;
+}
+
+
+.contacts-list__link {
     display: block;
     padding: 0;
     margin: 5px 0;
+}
+
+.contacts__copyright {
+    font-size: 12px;
 }
 
 .hide-content__title {
@@ -498,9 +507,12 @@ a {
 .modal__submit-btn {
     padding: 16px 84px;
     margin-top: 25px;
+
+    cursor: pointer;
 }
 
-.modal-close-btn {
+
+.modal__close-btn {
     position: absolute;
     top: 11px;
     right: 7px;
@@ -510,7 +522,7 @@ a {
     background: transparent;
 }
 
-.modal-close-btn:active {
+.modal__close-btn:active {
     opacity: .1;
 }
 

@@ -11,7 +11,6 @@
         min-width: 970px;
     }
 
-
     .lang-menu {
         float: right;
     }
@@ -170,17 +169,33 @@
         flex-wrap: wrap;
     }
 
-    .copyright {
+    .contacts {
         display: flex;
         padding: 10px 20px 5px 10px;
 
+        align-items: center;
         justify-content: space-around;
     }
 
-    .copyright__title {
+    .contacts-list {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacts-list__item {
+        padding: 0 20px;
+    }
+
+    .contacts-list__link {
         padding: 2px 10px;
 
         font-size: 12px;
+    }
+
+    .contacts__copyright {
+        padding: 0;
+        margin: 0;
     }
 
     .modal {
@@ -188,11 +203,19 @@
         overflow: unset;
     }
 
-    .modal-close-btn:hover,
-    .modal-close-btn:focus {
-        opacity: 1.0;
+    .modal__close-btn {
+        cursor: pointer;
     }
 
+    .modal__close-btn:hover,
+    .modal__close-btn:focus {
+        opacity: .5;
+    }
+
+    .modal__submit-btn:hover,
+    .modal__submit-btn:focus {
+        opacity: .5;
+    }
 
     .overlay {
         position: fixed;
@@ -242,7 +265,6 @@
         width: 360px;
         margin-top: 12px;
     }
-
 
     .modal-input:hover {
         border-color: #b4b9bb;

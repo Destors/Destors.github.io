@@ -30,7 +30,7 @@ body {
 a {
     text-decoration: none;
 
-    color: #36b;
+    color: #7f7fff;
 }
 
 .visually-hidden {
@@ -239,7 +239,7 @@ a {
 
     content: "";
 
-    background-color: #007f00;
+    background-color: #009900;
 }
 
 .progress-bar--75:before {
@@ -248,20 +248,14 @@ a {
 
 .progress-bar--62:before {
     width: 62%;
-
-    background-color: #517f00;
 }
 
 .progress-bar--45:before {
     width: 45%;
-
-    background-color: #3a4723;
 }
 
 .progress-bar--5:before {
     width: 5%;
-
-    background-color: #9f0000;
 }
 
 .progress-bar__text {
